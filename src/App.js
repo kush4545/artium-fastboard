@@ -31,11 +31,7 @@ function App() {
   const FastboardUIConfig = { toolbar: { apps: { enable: false } } }
   // Container must have a visible size
   return (
-    <div style={{
-      height: "400px",
-      border: "1px solid",
-      background: "#f1f2f3",
-    }}>
+    <div>
       <Fastboard app={fastboard} config={FastboardUIConfig} />
     </div>
   );
